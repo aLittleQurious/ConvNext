@@ -1,5 +1,5 @@
 {
-  "analysis_timestamp": "2026-02-03T11:55:50.938747",
+  "analysis_timestamp": "2026-02-03T12:00:11.140221",
   "models_directory": "c:\\Users\\kevin\\source\\repos\\CompArch\\ConvNext",
   "total_models_analyzed": 3,
   "models": {
@@ -12,6 +12,10 @@
       "total_parameters": 5623665,
       "total_parameters_millions": 5.62,
       "total_tensors": 264,
+      "activation_bytes": 5120000,
+      "activation_mb": 4.88,
+      "peak_memory_bytes": 16179200,
+      "peak_memory_mb": 15.43,
       "cipher_config": {
         "ciphers": {
           "grain128": 16250,
@@ -45,6 +49,34 @@
         "trivium": {
           "cycles_per_byte": 8000,
           "total_cycles": 179957280000
+        }
+      },
+      "encryption_cycles_activation": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 83200000000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 870400000
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 40960000000
+        }
+      },
+      "encryption_cycles_peak_memory": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 262912000000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 2750464000
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 129433600000
         }
       },
       "layers": [
@@ -2318,6 +2350,10 @@
       "total_parameters": 5770824,
       "total_parameters_millions": 5.77,
       "total_tensors": 822,
+      "activation_bytes": 2560000,
+      "activation_mb": 2.44,
+      "peak_memory_bytes": 10617856,
+      "peak_memory_mb": 10.13,
       "cipher_config": {
         "ciphers": {
           "grain128": 16250,
@@ -2351,6 +2387,34 @@
         "trivium": {
           "cycles_per_byte": 8000,
           "total_cycles": 184666368000
+        }
+      },
+      "encryption_cycles_activation": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 41600000000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 435200000
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 20480000000
+        }
+      },
+      "encryption_cycles_peak_memory": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 172540160000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 1805035520
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 84942848000
         }
       },
       "layers": [
@@ -6206,6 +6270,10 @@
       "total_parameters": 35127826,
       "total_parameters_millions": 35.13,
       "total_tensors": 82,
+      "activation_bytes": 37748736,
+      "activation_mb": 36.0,
+      "peak_memory_bytes": 128581632,
+      "peak_memory_mb": 122.62,
       "cipher_config": {
         "ciphers": {
           "grain128": 16250,
@@ -6239,6 +6307,34 @@
         "trivium": {
           "cycles_per_byte": 8000,
           "total_cycles": 1124090432000
+        }
+      },
+      "encryption_cycles_activation": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 613416960000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 6417285120
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 301989888000
+        }
+      },
+      "encryption_cycles_peak_memory": {
+        "grain128": {
+          "cycles_per_byte": 16250,
+          "cycles": 2089451520000
+        },
+        "chacha20_poly1305": {
+          "cycles_per_byte": 170,
+          "cycles": 21858877440
+        },
+        "trivium": {
+          "cycles_per_byte": 8000,
+          "cycles": 1028653056000
         }
       },
       "layers": [

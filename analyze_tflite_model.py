@@ -118,6 +118,22 @@ def analyze_tflite_model(model_path):
     print(f"  Total parameters: {total_parameters:,} ({total_parameters / 1e6:.2f}M)")
     print(f"  Total tensor data: {total_tensor_bytes:,} bytes ({total_tensor_bytes / (1024*1024):.2f} MB)")
     
+    # Calculate activation and peak memory usage
+    # Sort tensors by size to find largest ones
+    tensors_sorted_by_size = sorted(layer_info, key=lambda x: -x['bytes'])
+    
+    # Activation: largest single tensor (max memory for one activation)
+    activation_bytes = tensors_sorted_by_size[0]['bytes'] if tensors_sorted_by_size else 0
+    
+    # Peak memory: sum of top N largest tensors (concurrent memory usage estimate)
+    top_n = CIPHER_CONFIG.get('analysis_settings', {}).get('top_activations_count', 10)
+    top_tensors = tensors_sorted_by_size[:top_n] if len(tensors_sorted_by_size) >= top_n else tensors_sorted_by_size
+    peak_memory_bytes = sum(t['bytes'] for t in top_tensors)
+    
+    print(f"\nMemory Estimates:")
+    print(f"  Activation (largest tensor): {activation_bytes:,} bytes ({activation_bytes / (1024*1024):.2f} MB)")
+    print(f"  Peak memory (top {len(top_tensors)} tensors): {peak_memory_bytes:,} bytes ({peak_memory_bytes / (1024*1024):.2f} MB)")
+    
     # Group by operation type (based on common naming conventions)
     print("\n" + "=" * 80)
     print("Breakdown by Layer Type (based on tensor names):")
@@ -166,12 +182,35 @@ def analyze_tflite_model(model_path):
         for cipher_name, cycles_per_byte in CIPHER_RATES.items()
     }
     
+    # Calculate encryption cycles for activation (largest tensor)
+    activation_encryption_cycles = {
+        cipher_name: int(activation_bytes * cycles_per_byte)
+        for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+    }
+    
+    # Calculate encryption cycles for peak memory
+    peak_memory_encryption_cycles = {
+        cipher_name: int(peak_memory_bytes * cycles_per_byte)
+        for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+    }
+    
     print("\n" + "=" * 80)
     print("Encryption Cycle Estimates:")
     print("-" * 80)
+    print("Total (all tensors):")
     for cipher_name, cycles_per_byte in CIPHER_RATES.items():
         total_cycles = total_encryption_cycles[cipher_name]
         print(f"  {cipher_name} ({cycles_per_byte:,} cycles/byte): {total_cycles:>20,} cycles")
+    
+    print("\nActivation (largest tensor):")
+    for cipher_name, cycles_per_byte in CIPHER_RATES.items():
+        cycles = activation_encryption_cycles[cipher_name]
+        print(f"  {cipher_name} ({cycles_per_byte:,} cycles/byte): {cycles:>20,} cycles")
+    
+    print(f"\nPeak Memory (top {len(top_tensors)} tensors):")
+    for cipher_name, cycles_per_byte in CIPHER_RATES.items():
+        cycles = peak_memory_encryption_cycles[cipher_name]
+        print(f"  {cipher_name} ({cycles_per_byte:,} cycles/byte): {cycles:>20,} cycles")
     
     # Build result dictionary
     result = {
@@ -183,11 +222,29 @@ def analyze_tflite_model(model_path):
         'total_parameters': int(total_parameters),
         'total_parameters_millions': round(total_parameters / 1e6, 2),
         'total_tensors': len(tensor_details),
+        'activation_bytes': int(activation_bytes),
+        'activation_mb': round(activation_bytes / (1024 * 1024), 2),
+        'peak_memory_bytes': int(peak_memory_bytes),
+        'peak_memory_mb': round(peak_memory_bytes / (1024 * 1024), 2),
         'cipher_config': CIPHER_CONFIG,
         'encryption_cycles_total': {
             cipher_name: {
                 'cycles_per_byte': cycles_per_byte,
                 'total_cycles': total_encryption_cycles[cipher_name]
+            }
+            for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+        },
+        'encryption_cycles_activation': {
+            cipher_name: {
+                'cycles_per_byte': cycles_per_byte,
+                'cycles': activation_encryption_cycles[cipher_name]
+            }
+            for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+        },
+        'encryption_cycles_peak_memory': {
+            cipher_name: {
+                'cycles_per_byte': cycles_per_byte,
+                'cycles': peak_memory_encryption_cycles[cipher_name]
             }
             for cipher_name, cycles_per_byte in CIPHER_RATES.items()
         },
@@ -318,9 +375,17 @@ def main():
     with open(summary_csv_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         
-        # Build dynamic cipher headers for summary
-        summary_cipher_headers = [
-            f"{cipher_name} Total Cycles ({cycles_per_byte} cycles/byte)"
+        # Build dynamic cipher headers for summary (total, activation, peak memory)
+        total_cipher_headers = [
+            f"{cipher_name} Total Cycles ({cycles_per_byte} c/b)"
+            for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+        ]
+        activation_cipher_headers = [
+            f"{cipher_name} Activation Cycles ({cycles_per_byte} c/b)"
+            for cipher_name, cycles_per_byte in CIPHER_RATES.items()
+        ]
+        peak_memory_cipher_headers = [
+            f"{cipher_name} Peak Memory Cycles ({cycles_per_byte} c/b)"
             for cipher_name, cycles_per_byte in CIPHER_RATES.items()
         ]
         
@@ -333,18 +398,30 @@ def main():
             'Total Parameters (M)',
             'Total Tensor Bytes',
             'Total Tensor MB',
-            'Total Tensors'
-        ] + summary_cipher_headers)
+            'Total Tensors',
+            'Activation Bytes',
+            'Activation MB',
+            'Peak Memory Bytes',
+            'Peak Memory MB'
+        ] + total_cipher_headers + activation_cipher_headers + peak_memory_cipher_headers)
         
         # Write summary for each model
         for model_name, model_data in all_results['models'].items():
             if 'error' in model_data:
-                error_row = [model_name, 'ERROR'] + [''] * (6 + len(CIPHER_RATES))
+                error_row = [model_name, 'ERROR'] + [''] * (10 + len(CIPHER_RATES) * 3)
                 writer.writerow(error_row)
                 continue
             
-            summary_cipher_cycles = [
+            total_cipher_cycles = [
                 model_data['encryption_cycles_total'][cipher_name]['total_cycles']
+                for cipher_name in CIPHER_RATES.keys()
+            ]
+            activation_cipher_cycles = [
+                model_data['encryption_cycles_activation'][cipher_name]['cycles']
+                for cipher_name in CIPHER_RATES.keys()
+            ]
+            peak_memory_cipher_cycles = [
+                model_data['encryption_cycles_peak_memory'][cipher_name]['cycles']
                 for cipher_name in CIPHER_RATES.keys()
             ]
             writer.writerow([
@@ -355,8 +432,12 @@ def main():
                 model_data['total_parameters_millions'],
                 model_data['total_tensor_bytes'],
                 round(model_data['total_tensor_bytes'] / (1024 * 1024), 2),
-                model_data['total_tensors']
-            ] + summary_cipher_cycles)
+                model_data['total_tensors'],
+                model_data['activation_bytes'],
+                model_data['activation_mb'],
+                model_data['peak_memory_bytes'],
+                model_data['peak_memory_mb']
+            ] + total_cipher_cycles + activation_cipher_cycles + peak_memory_cipher_cycles)
     
     print("\n" + "=" * 80)
     print(f"Results saved to:")
