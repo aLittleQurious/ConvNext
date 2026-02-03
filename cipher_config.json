@@ -1,0 +1,21 @@
+{
+  "ciphers": {
+    "grain128": 16250,
+    "chacha20_poly1305": 170,
+    "trivium": 8000
+  },
+  "analysis_settings": {
+    "top_activations_count": 10,
+    "default_bytes_per_element": 4
+  },
+  "dtype_bytes": {
+    "float32": 4,
+    "float16": 2,
+    "int32": 4,
+    "int16": 2,
+    "int8": 1,
+    "uint8": 1,
+    "int64": 8,
+    "bool": 1
+  }
+}

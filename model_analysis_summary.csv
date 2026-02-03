@@ -1,5 +1,5 @@
-Model Name,Total File Size (bytes),Total File Size (MB),Total Tensor Bytes,Total Tensor MB,Total Tensors,Weight Bytes,Weight MB,Activation Bytes,Activation MB,Peak Memory Min (bytes),Peak Memory Min (MB),Peak Memory Conservative (bytes),Peak Memory Conservative (MB),Grain128 Total Cycles (on Tensor Bytes),ChaCha20+Poly1305 Total Cycles (on Tensor Bytes)
-conditional_detr_resnet50.tflite,174375004,166.3,1189284948,1134.19,1277,170902032,162.98,1018382916,971.21,197280528,188.14,420267280,400.8,19325880405000,202178441160
-convnext_base-convnext-base-float.tflite,354419100,338.0,703340456,670.76,912,354293704,337.88,349046752,332.88,360716232,344.01,405673928,386.88,11429282410000,119567877520
-mobilenet_v3_large-mobilenet-v3-large-float.tflite,21925620,20.91,57956176,55.27,264,21888548,20.87,36067628,34.4,25157412,23.99,35296516,33.66,941787860000,9852549920
-mobile_vit-mobile-vit-float.tflite,22400344,21.36,318008108,303.28,822,22292864,21.26,295715244,282.02,30813056,29.39,81276800,77.51,5167631755000,54061378360
+Model Name,Total File Size (bytes),Total File Size (MB),Total Tensor Bytes,Total Tensor MB,Total Tensors,Weight Bytes,Weight MB,Activation Bytes,Activation MB,Peak Memory Min (bytes),Peak Memory Min (MB),Peak Memory Conservative (bytes),Peak Memory Conservative (MB),grain128 Total Cycles,chacha20_poly1305 Total Cycles,trivium Total Cycles
+conditional_detr_resnet50.tflite,ERROR,,,,,,,,,,,,,,,
+convnext_base-convnext-base-float.tflite,354419100,338.0,703340456,670.76,912,354293704,337.88,349046752,332.88,360716232,344.01,405673928,386.88,11429282410000,119567877520,5626723648000
+mobilenet_v3_large-mobilenet-v3-large-float.tflite,21925620,20.91,57956176,55.27,264,21888548,20.87,36067628,34.4,25157412,23.99,35296516,33.66,941787860000,9852549920,463649408000
+mobile_vit-mobile-vit-float.tflite,22400344,21.36,318008108,303.28,822,22292864,21.26,295715244,282.02,30813056,29.39,81276800,77.51,5167631755000,54061378360,2544064864000

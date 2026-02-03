@@ -1,0 +1,4 @@
+Model Name,File Size (MB),Total Parameters,Parameters (Millions),Weight Tensors,Total Tensors
+convnext_base-convnext-base-float.tflite,338.0,93239792,93.24,347,912
+mobile_vit-mobile-vit-float.tflite,21.36,9636443,9.64,246,822
+mobilenet_v3_large-mobilenet-v3-large-float.tflite,20.91,6855112,6.86,149,264

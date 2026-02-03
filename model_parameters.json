@@ -1,0 +1,6675 @@
+[
+  {
+    "model_name": "conditional_detr_resnet50.tflite",
+    "error": "Model provided has model identifier '\r\n\u001a\n', should be 'TFL3'\n"
+  },
+  {
+    "model_name": "convnext_base-convnext-base-float.tflite",
+    "file_size_bytes": 354419100,
+    "file_size_mb": 338.0,
+    "total_parameters": 93239792,
+    "total_parameters_millions": 93.24,
+    "num_weight_tensors": 347,
+    "total_tensors": 912,
+    "weight_tensors": [
+      {
+        "name": "arith.constant",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant1",
+        "shape": [
+          1024,
+          4096
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant2",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant3",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant4",
+        "shape": [
+          1024,
+          4096
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant5",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant6",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant7",
+        "shape": [
+          1024,
+          4096
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant8",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant9",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant10",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant11",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant12",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant13",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant14",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant15",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant16",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant17",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant18",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant19",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant20",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant21",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant22",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant23",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant24",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant25",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant26",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant27",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant28",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant29",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant30",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant31",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant32",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant33",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant34",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant35",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant36",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant37",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant38",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant39",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant40",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant41",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant42",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant43",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant44",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant45",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant46",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant47",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant48",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant49",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant50",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant51",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant52",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant53",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant54",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant55",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant56",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant57",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant58",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant59",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant60",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant61",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant62",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant63",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant64",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant65",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant66",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant67",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant68",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant69",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant70",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant71",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant72",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant73",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant74",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant75",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant76",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant77",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant78",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant79",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant80",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant81",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant82",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant83",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant84",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant85",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant86",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant87",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant88",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant89",
+        "shape": [
+          512,
+          2048
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant90",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant91",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant92",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant93",
+        "shape": [
+          256,
+          1024
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant94",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant95",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant96",
+        "shape": [
+          256,
+          1024
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant97",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant98",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant99",
+        "shape": [
+          256,
+          1024
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant100",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant101",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant102",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant103",
+        "shape": [
+          128,
+          512
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant104",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant105",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant106",
+        "shape": [
+          128,
+          512
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant107",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant108",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant109",
+        "shape": [
+          128,
+          512
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant110",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant111",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant112",
+        "shape": [
+          4096,
+          1024
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant113",
+        "shape": [
+          4096,
+          1024
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant114",
+        "shape": [
+          4096,
+          1024
+        ],
+        "params": 4194304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant115",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant116",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant117",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant118",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant119",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant120",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant121",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant122",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant123",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant124",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant125",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant126",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant127",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant128",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant129",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant130",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant131",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant132",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant133",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant134",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant135",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant136",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant137",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant138",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant139",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant140",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant141",
+        "shape": [
+          2048,
+          512
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant142",
+        "shape": [
+          1024,
+          256
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant143",
+        "shape": [
+          1024,
+          256
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant144",
+        "shape": [
+          1024,
+          256
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant145",
+        "shape": [
+          512,
+          128
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant146",
+        "shape": [
+          512,
+          128
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant147",
+        "shape": [
+          512,
+          128
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant148",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant149",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant150",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant151",
+        "shape": [
+          1024,
+          2,
+          2,
+          512
+        ],
+        "params": 2097152,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant152",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant153",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant154",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant155",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant156",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant157",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant158",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant159",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant160",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant161",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant162",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant163",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant164",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant165",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant166",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant167",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant168",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant169",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant170",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant171",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant172",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant173",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant174",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant175",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant176",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant177",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant178",
+        "shape": [
+          1,
+          7,
+          7,
+          512
+        ],
+        "params": 25088,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant179",
+        "shape": [
+          512,
+          2,
+          2,
+          256
+        ],
+        "params": 524288,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant180",
+        "shape": [
+          1,
+          7,
+          7,
+          256
+        ],
+        "params": 12544,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant181",
+        "shape": [
+          1,
+          7,
+          7,
+          256
+        ],
+        "params": 12544,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant182",
+        "shape": [
+          1,
+          7,
+          7,
+          256
+        ],
+        "params": 12544,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant183",
+        "shape": [
+          256,
+          2,
+          2,
+          128
+        ],
+        "params": 131072,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant184",
+        "shape": [
+          1,
+          7,
+          7,
+          128
+        ],
+        "params": 6272,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant185",
+        "shape": [
+          1,
+          7,
+          7,
+          128
+        ],
+        "params": 6272,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant186",
+        "shape": [
+          1,
+          7,
+          7,
+          128
+        ],
+        "params": 6272,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant187",
+        "shape": [
+          128,
+          4,
+          4,
+          3
+        ],
+        "params": 6144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant188",
+        "shape": [
+          1000,
+          1024
+        ],
+        "params": 1024000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant189",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant190",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant191",
+        "shape": [
+          2
+        ],
+        "params": 2,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant193",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant194",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant195",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant196",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant197",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant198",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant199",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant200",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant201",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant202",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant203",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant204",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant205",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant206",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant207",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant208",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant209",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant210",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant211",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant212",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant213",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant214",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant215",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant216",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant217",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant218",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant219",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant220",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant221",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant222",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant223",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant224",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant225",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant226",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant227",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant228",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant229",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant230",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant231",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant232",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant233",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant234",
+        "shape": [
+          1000
+        ],
+        "params": 1000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant236",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant237",
+        "shape": [
+          4096
+        ],
+        "params": 4096,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant238",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant239",
+        "shape": [
+          4096
+        ],
+        "params": 4096,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant240",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant241",
+        "shape": [
+          4096
+        ],
+        "params": 4096,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant242",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant243",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant244",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant245",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant246",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant247",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant248",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant249",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant250",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant251",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant252",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant253",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant254",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant255",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant256",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant257",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant258",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant259",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant260",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant261",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant262",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant263",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant264",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant265",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant266",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant267",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant268",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant269",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant270",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant271",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant272",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant273",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant274",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant275",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant276",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant277",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant278",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant279",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant280",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant281",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant282",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant283",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant284",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant285",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant286",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant287",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant288",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant289",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant290",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant291",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant292",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant293",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant294",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant295",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant296",
+        "shape": [
+          2048
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant297",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant298",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant299",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant300",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant301",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant302",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant303",
+        "shape": [
+          1024
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant304",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant305",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant306",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant307",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant308",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant309",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant310",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant311",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant312",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_1/Add;model/.net/features/1/0/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          56,
+          56,
+          128
+        ],
+        "params": 401408,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_5/Add;model/.net/features/1/1/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          56,
+          56,
+          128
+        ],
+        "params": 401408,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_9/Add;model/.net/features/1/2/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          56,
+          56,
+          128
+        ],
+        "params": 401408,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_14/Add;model/.net/features/3/0/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          256
+        ],
+        "params": 200704,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_18/Add;model/.net/features/3/1/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          256
+        ],
+        "params": 200704,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_22/Add;model/.net/features/3/2/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          256
+        ],
+        "params": 200704,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_27/Add;model/.net/features/5/0/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_31/Add;model/.net/features/5/1/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_35/Add;model/.net/features/5/2/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_39/Add;model/.net/features/5/3/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_43/Add;model/.net/features/5/4/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_47/Add;model/.net/features/5/5/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_51/Add;model/.net/features/5/6/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_55/Add;model/.net/features/5/7/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_59/Add;model/.net/features/5/8/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_63/Add;model/.net/features/5/9/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_67/Add;model/.net/features/5/10/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_71/Add;model/.net/features/5/11/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_75/Add;model/.net/features/5/12/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_79/Add;model/.net/features/5/13/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_83/Add;model/.net/features/5/14/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_87/Add;model/.net/features/5/15/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_91/Add;model/.net/features/5/16/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_95/Add;model/.net/features/5/17/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_99/Add;model/.net/features/5/18/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_103/Add;model/.net/features/5/19/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_107/Add;model/.net/features/5/20/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_111/Add;model/.net/features/5/21/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_115/Add;model/.net/features/5/22/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_119/Add;model/.net/features/5/23/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_123/Add;model/.net/features/5/24/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_127/Add;model/.net/features/5/25/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_131/Add;model/.net/features/5/26/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          512
+        ],
+        "params": 100352,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_136/Add;model/.net/features/7/0/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_140/Add;model/.net/features/7/1/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_144/Add;model/.net/features/7/2/block/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          1024
+        ],
+        "params": 50176,
+        "dtype": "<class 'numpy.float32'>"
+      }
+    ]
+  },
+  {
+    "model_name": "mobile_vit-mobile-vit-float.tflite",
+    "file_size_bytes": 22400344,
+    "file_size_mb": 21.36,
+    "total_parameters": 9636443,
+    "total_parameters_millions": 9.64,
+    "num_weight_tensors": 246,
+    "total_tensors": 822,
+    "weight_tensors": [
+      {
+        "name": "arith.constant",
+        "shape": [
+          640
+        ],
+        "params": 640,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant1",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant2",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant3",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant4",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant5",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant6",
+        "shape": [
+          512
+        ],
+        "params": 512,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant7",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant8",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant9",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant10",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant11",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant12",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant13",
+        "shape": [
+          96
+        ],
+        "params": 96,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant14",
+        "shape": [
+          96
+        ],
+        "params": 96,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant15",
+        "shape": [
+          96
+        ],
+        "params": 96,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant16",
+        "shape": [
+          96
+        ],
+        "params": 96,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant17",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant18",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant19",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant20",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant21",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant22",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant23",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant24",
+        "shape": [
+          256
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant25",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant26",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant27",
+        "shape": [
+          128
+        ],
+        "params": 128,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant28",
+        "shape": [
+          32
+        ],
+        "params": 32,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant29",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant30",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant31",
+        "shape": [
+          16
+        ],
+        "params": 16,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant32",
+        "shape": [
+          240,
+          480
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant33",
+        "shape": [
+          480,
+          240
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant34",
+        "shape": [
+          240,
+          240
+        ],
+        "params": 57600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant35",
+        "shape": [
+          720,
+          240
+        ],
+        "params": 172800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant36",
+        "shape": [
+          240,
+          480
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant37",
+        "shape": [
+          480,
+          240
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant38",
+        "shape": [
+          240,
+          240
+        ],
+        "params": 57600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant39",
+        "shape": [
+          720,
+          240
+        ],
+        "params": 172800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant40",
+        "shape": [
+          240,
+          480
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant41",
+        "shape": [
+          480,
+          240
+        ],
+        "params": 115200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant42",
+        "shape": [
+          240,
+          240
+        ],
+        "params": 57600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant43",
+        "shape": [
+          720,
+          240
+        ],
+        "params": 172800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant44",
+        "shape": [
+          192,
+          384
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant45",
+        "shape": [
+          384,
+          192
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant46",
+        "shape": [
+          192,
+          192
+        ],
+        "params": 36864,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant47",
+        "shape": [
+          576,
+          192
+        ],
+        "params": 110592,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant48",
+        "shape": [
+          192,
+          384
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant49",
+        "shape": [
+          384,
+          192
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant50",
+        "shape": [
+          192,
+          192
+        ],
+        "params": 36864,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant51",
+        "shape": [
+          576,
+          192
+        ],
+        "params": 110592,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant52",
+        "shape": [
+          192,
+          384
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant53",
+        "shape": [
+          384,
+          192
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant54",
+        "shape": [
+          192,
+          192
+        ],
+        "params": 36864,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant55",
+        "shape": [
+          576,
+          192
+        ],
+        "params": 110592,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant56",
+        "shape": [
+          192,
+          384
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant57",
+        "shape": [
+          384,
+          192
+        ],
+        "params": 73728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant58",
+        "shape": [
+          192,
+          192
+        ],
+        "params": 36864,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant59",
+        "shape": [
+          576,
+          192
+        ],
+        "params": 110592,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant60",
+        "shape": [
+          144,
+          288
+        ],
+        "params": 41472,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant61",
+        "shape": [
+          288,
+          144
+        ],
+        "params": 41472,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant62",
+        "shape": [
+          144,
+          144
+        ],
+        "params": 20736,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant63",
+        "shape": [
+          432,
+          144
+        ],
+        "params": 62208,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant64",
+        "shape": [
+          144,
+          288
+        ],
+        "params": 41472,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant65",
+        "shape": [
+          288,
+          144
+        ],
+        "params": 41472,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant66",
+        "shape": [
+          144,
+          144
+        ],
+        "params": 20736,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant67",
+        "shape": [
+          432,
+          144
+        ],
+        "params": 62208,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant68",
+        "shape": [
+          640,
+          1,
+          1,
+          160
+        ],
+        "params": 102400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant69",
+        "shape": [
+          160,
+          3,
+          3,
+          320
+        ],
+        "params": 460800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant70",
+        "shape": [
+          160,
+          1,
+          1,
+          240
+        ],
+        "params": 38400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant71",
+        "shape": [
+          240,
+          1,
+          1,
+          160
+        ],
+        "params": 38400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant72",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant73",
+        "shape": [
+          160,
+          3,
+          3,
+          160
+        ],
+        "params": 230400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant74",
+        "shape": [
+          160,
+          1,
+          1,
+          512
+        ],
+        "params": 81920,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant75",
+        "shape": [
+          1,
+          3,
+          3,
+          512
+        ],
+        "params": 4608,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant76",
+        "shape": [
+          512,
+          1,
+          1,
+          128
+        ],
+        "params": 65536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant77",
+        "shape": [
+          128,
+          3,
+          3,
+          256
+        ],
+        "params": 294912,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant78",
+        "shape": [
+          128,
+          1,
+          1,
+          192
+        ],
+        "params": 24576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant79",
+        "shape": [
+          192,
+          1,
+          1,
+          128
+        ],
+        "params": 24576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant80",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant81",
+        "shape": [
+          128,
+          3,
+          3,
+          128
+        ],
+        "params": 147456,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant82",
+        "shape": [
+          128,
+          1,
+          1,
+          384
+        ],
+        "params": 49152,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant83",
+        "shape": [
+          1,
+          3,
+          3,
+          384
+        ],
+        "params": 3456,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant84",
+        "shape": [
+          384,
+          1,
+          1,
+          96
+        ],
+        "params": 36864,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant85",
+        "shape": [
+          96,
+          3,
+          3,
+          192
+        ],
+        "params": 165888,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant86",
+        "shape": [
+          96,
+          1,
+          1,
+          144
+        ],
+        "params": 13824,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant87",
+        "shape": [
+          144,
+          1,
+          1,
+          96
+        ],
+        "params": 13824,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant88",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant89",
+        "shape": [
+          96,
+          3,
+          3,
+          96
+        ],
+        "params": 82944,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant90",
+        "shape": [
+          96,
+          1,
+          1,
+          256
+        ],
+        "params": 24576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant91",
+        "shape": [
+          1,
+          3,
+          3,
+          256
+        ],
+        "params": 2304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant92",
+        "shape": [
+          256,
+          1,
+          1,
+          64
+        ],
+        "params": 16384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant93",
+        "shape": [
+          64,
+          1,
+          1,
+          256
+        ],
+        "params": 16384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant94",
+        "shape": [
+          1,
+          3,
+          3,
+          256
+        ],
+        "params": 2304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant95",
+        "shape": [
+          256,
+          1,
+          1,
+          64
+        ],
+        "params": 16384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant96",
+        "shape": [
+          64,
+          1,
+          1,
+          256
+        ],
+        "params": 16384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant97",
+        "shape": [
+          1,
+          3,
+          3,
+          256
+        ],
+        "params": 2304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant98",
+        "shape": [
+          256,
+          1,
+          1,
+          64
+        ],
+        "params": 16384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant99",
+        "shape": [
+          64,
+          1,
+          1,
+          128
+        ],
+        "params": 8192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant100",
+        "shape": [
+          1,
+          3,
+          3,
+          128
+        ],
+        "params": 1152,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant101",
+        "shape": [
+          128,
+          1,
+          1,
+          32
+        ],
+        "params": 4096,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant102",
+        "shape": [
+          32,
+          1,
+          1,
+          64
+        ],
+        "params": 2048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant103",
+        "shape": [
+          1,
+          3,
+          3,
+          64
+        ],
+        "params": 576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant104",
+        "shape": [
+          64,
+          1,
+          1,
+          16
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant105",
+        "shape": [
+          16,
+          3,
+          3,
+          3
+        ],
+        "params": 432,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant106",
+        "shape": [
+          1000,
+          640
+        ],
+        "params": 640000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant110",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant111",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant112",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant113",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant114",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant115",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant116",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant117",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant118",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant119",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant120",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant121",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant122",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant123",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant124",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant125",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant126",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant127",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant128",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant129",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant130",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant131",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant132",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant133",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant134",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant135",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant136",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant137",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant138",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant139",
+        "shape": [
+          2
+        ],
+        "params": 2,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant141",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant142",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant143",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant144",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant145",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant146",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant147",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant148",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant149",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant150",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant151",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant152",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant153",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant154",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant155",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant156",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant157",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant158",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant159",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant160",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant161",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant162",
+        "shape": [
+          1000
+        ],
+        "params": 1000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant163",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant164",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant165",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant166",
+        "shape": [
+          4
+        ],
+        "params": 4,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant167",
+        "shape": [
+          4,
+          2
+        ],
+        "params": 8,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant169",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant170",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant171",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant172",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant173",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant174",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant175",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant176",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant177",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant178",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant179",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant180",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant181",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant182",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant183",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant184",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant185",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant186",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant187",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant188",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant189",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant190",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant191",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant192",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant193",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant194",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant195",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant196",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant197",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant198",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant199",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant200",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant201",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant202",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant203",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant204",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant205",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant206",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant207",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant208",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant209",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant210",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant211",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant212",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant213",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant214",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant215",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant216",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant217",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant218",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant219",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant220",
+        "shape": [
+          384
+        ],
+        "params": 384,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant221",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant222",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant223",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant224",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant225",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant226",
+        "shape": [
+          192
+        ],
+        "params": 192,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant227",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant228",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant229",
+        "shape": [
+          288
+        ],
+        "params": 288,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant230",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant231",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant232",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant233",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant234",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant235",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant236",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant237",
+        "shape": [
+          288
+        ],
+        "params": 288,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant238",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant239",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant240",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant241",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant242",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant243",
+        "shape": [
+          144
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_2/Add;model/.net/mobilevit/encoder/0/layer.0/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          128,
+          128,
+          64
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_5/Add;model/.net/mobilevit/encoder/1/0/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          64,
+          64,
+          128
+        ],
+        "params": 524288,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_8/Add;model/.net/mobilevit/encoder/1/1/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          64,
+          64,
+          256
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_12/Add;model/.net/mobilevit/encoder/1/2/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          64,
+          64,
+          256
+        ],
+        "params": 1048576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_16/Add;model/.net/mobilevit/encoder/2/downsampling_layer/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          32,
+          32,
+          256
+        ],
+        "params": 262144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_38/Add;model/.net/mobilevit/encoder/3/downsampling_layer/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          16,
+          16,
+          384
+        ],
+        "params": 98304,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_76/Add;model/.net/mobilevit/encoder/4/downsampling_layer/conv_3x3/convolution/Conv/depthwise",
+        "shape": [
+          1,
+          8,
+          8,
+          512
+        ],
+        "params": 32768,
+        "dtype": "<class 'numpy.float32'>"
+      }
+    ]
+  },
+  {
+    "model_name": "mobilenet_v3_large-mobilenet-v3-large-float.tflite",
+    "file_size_bytes": 21925620,
+    "file_size_mb": 20.91,
+    "total_parameters": 6855112,
+    "total_parameters_millions": 6.86,
+    "num_weight_tensors": 149,
+    "total_tensors": 264,
+    "weight_tensors": [
+      {
+        "name": "arith.constant",
+        "shape": [
+          1000,
+          1280
+        ],
+        "params": 1280000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant1",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant2",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant3",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant4",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant5",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant6",
+        "shape": [
+          168
+        ],
+        "params": 168,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant7",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant8",
+        "shape": [
+          168
+        ],
+        "params": 168,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant9",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant10",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant11",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant12",
+        "shape": [
+          32
+        ],
+        "params": 32,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant13",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant14",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant15",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant16",
+        "shape": [
+          32
+        ],
+        "params": 32,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant17",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant18",
+        "shape": [
+          120
+        ],
+        "params": 120,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant19",
+        "shape": [
+          72
+        ],
+        "params": 72,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant20",
+        "shape": [
+          24
+        ],
+        "params": 24,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant21",
+        "shape": [
+          72
+        ],
+        "params": 72,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant22",
+        "shape": [
+          72
+        ],
+        "params": 72,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant23",
+        "shape": [
+          72
+        ],
+        "params": 72,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant24",
+        "shape": [
+          72
+        ],
+        "params": 72,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant25",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant26",
+        "shape": [
+          64
+        ],
+        "params": 64,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant27",
+        "shape": [
+          16
+        ],
+        "params": 16,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant28",
+        "shape": [
+          1280
+        ],
+        "params": 1280,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant29",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant30",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant31",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant32",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant33",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant34",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant35",
+        "shape": [
+          960
+        ],
+        "params": 960,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant36",
+        "shape": [
+          160
+        ],
+        "params": 160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant37",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant38",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant39",
+        "shape": [
+          112
+        ],
+        "params": 112,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant40",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant41",
+        "shape": [
+          672
+        ],
+        "params": 672,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant42",
+        "shape": [
+          112
+        ],
+        "params": 112,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant43",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant44",
+        "shape": [
+          480
+        ],
+        "params": 480,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant45",
+        "shape": [
+          80
+        ],
+        "params": 80,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant46",
+        "shape": [
+          184
+        ],
+        "params": 184,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant47",
+        "shape": [
+          184
+        ],
+        "params": 184,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant48",
+        "shape": [
+          80
+        ],
+        "params": 80,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant49",
+        "shape": [
+          184
+        ],
+        "params": 184,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant50",
+        "shape": [
+          184
+        ],
+        "params": 184,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant51",
+        "shape": [
+          80
+        ],
+        "params": 80,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant52",
+        "shape": [
+          200
+        ],
+        "params": 200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant53",
+        "shape": [
+          200
+        ],
+        "params": 200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant54",
+        "shape": [
+          80
+        ],
+        "params": 80,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant55",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant56",
+        "shape": [
+          240
+        ],
+        "params": 240,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant57",
+        "shape": [
+          40
+        ],
+        "params": 40,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant58",
+        "shape": [
+          40
+        ],
+        "params": 40,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant59",
+        "shape": [
+          40
+        ],
+        "params": 40,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant60",
+        "shape": [
+          24
+        ],
+        "params": 24,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant61",
+        "shape": [
+          24
+        ],
+        "params": 24,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant62",
+        "shape": [
+          16
+        ],
+        "params": 16,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant63",
+        "shape": [
+          16
+        ],
+        "params": 16,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant64",
+        "shape": [
+          960,
+          1,
+          1,
+          160
+        ],
+        "params": 153600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant65",
+        "shape": [
+          160,
+          1,
+          1,
+          960
+        ],
+        "params": 153600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant66",
+        "shape": [
+          960,
+          1,
+          1,
+          240
+        ],
+        "params": 230400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant67",
+        "shape": [
+          240,
+          1,
+          1,
+          960
+        ],
+        "params": 230400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant68",
+        "shape": [
+          1,
+          5,
+          5,
+          960
+        ],
+        "params": 24000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant69",
+        "shape": [
+          960,
+          1,
+          1,
+          160
+        ],
+        "params": 153600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant70",
+        "shape": [
+          160,
+          1,
+          1,
+          960
+        ],
+        "params": 153600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant71",
+        "shape": [
+          960,
+          1,
+          1,
+          240
+        ],
+        "params": 230400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant72",
+        "shape": [
+          240,
+          1,
+          1,
+          960
+        ],
+        "params": 230400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant73",
+        "shape": [
+          1,
+          5,
+          5,
+          960
+        ],
+        "params": 24000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant74",
+        "shape": [
+          960,
+          1,
+          1,
+          160
+        ],
+        "params": 153600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant75",
+        "shape": [
+          160,
+          1,
+          1,
+          672
+        ],
+        "params": 107520,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant76",
+        "shape": [
+          672,
+          1,
+          1,
+          168
+        ],
+        "params": 112896,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant77",
+        "shape": [
+          168,
+          1,
+          1,
+          672
+        ],
+        "params": 112896,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant78",
+        "shape": [
+          1,
+          5,
+          5,
+          672
+        ],
+        "params": 16800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant79",
+        "shape": [
+          672,
+          1,
+          1,
+          112
+        ],
+        "params": 75264,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant80",
+        "shape": [
+          112,
+          1,
+          1,
+          672
+        ],
+        "params": 75264,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant81",
+        "shape": [
+          672,
+          1,
+          1,
+          168
+        ],
+        "params": 112896,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant82",
+        "shape": [
+          168,
+          1,
+          1,
+          672
+        ],
+        "params": 112896,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant83",
+        "shape": [
+          1,
+          3,
+          3,
+          672
+        ],
+        "params": 6048,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant84",
+        "shape": [
+          672,
+          1,
+          1,
+          112
+        ],
+        "params": 75264,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant85",
+        "shape": [
+          112,
+          1,
+          1,
+          480
+        ],
+        "params": 53760,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant86",
+        "shape": [
+          480,
+          1,
+          1,
+          120
+        ],
+        "params": 57600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant87",
+        "shape": [
+          120,
+          1,
+          1,
+          480
+        ],
+        "params": 57600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant88",
+        "shape": [
+          1,
+          3,
+          3,
+          480
+        ],
+        "params": 4320,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant89",
+        "shape": [
+          480,
+          1,
+          1,
+          80
+        ],
+        "params": 38400,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant90",
+        "shape": [
+          80,
+          1,
+          1,
+          184
+        ],
+        "params": 14720,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant91",
+        "shape": [
+          1,
+          3,
+          3,
+          184
+        ],
+        "params": 1656,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant92",
+        "shape": [
+          184,
+          1,
+          1,
+          80
+        ],
+        "params": 14720,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant93",
+        "shape": [
+          80,
+          1,
+          1,
+          184
+        ],
+        "params": 14720,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant94",
+        "shape": [
+          1,
+          3,
+          3,
+          184
+        ],
+        "params": 1656,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant95",
+        "shape": [
+          184,
+          1,
+          1,
+          80
+        ],
+        "params": 14720,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant96",
+        "shape": [
+          80,
+          1,
+          1,
+          200
+        ],
+        "params": 16000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant97",
+        "shape": [
+          1,
+          3,
+          3,
+          200
+        ],
+        "params": 1800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant98",
+        "shape": [
+          200,
+          1,
+          1,
+          80
+        ],
+        "params": 16000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant99",
+        "shape": [
+          80,
+          1,
+          1,
+          240
+        ],
+        "params": 19200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant100",
+        "shape": [
+          1,
+          3,
+          3,
+          240
+        ],
+        "params": 2160,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant101",
+        "shape": [
+          240,
+          1,
+          1,
+          40
+        ],
+        "params": 9600,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant102",
+        "shape": [
+          40,
+          1,
+          1,
+          120
+        ],
+        "params": 4800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant103",
+        "shape": [
+          120,
+          1,
+          1,
+          32
+        ],
+        "params": 3840,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant104",
+        "shape": [
+          32,
+          1,
+          1,
+          120
+        ],
+        "params": 3840,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant105",
+        "shape": [
+          1,
+          5,
+          5,
+          120
+        ],
+        "params": 3000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant106",
+        "shape": [
+          120,
+          1,
+          1,
+          40
+        ],
+        "params": 4800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant107",
+        "shape": [
+          40,
+          1,
+          1,
+          120
+        ],
+        "params": 4800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant108",
+        "shape": [
+          120,
+          1,
+          1,
+          32
+        ],
+        "params": 3840,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant109",
+        "shape": [
+          32,
+          1,
+          1,
+          120
+        ],
+        "params": 3840,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant110",
+        "shape": [
+          1,
+          5,
+          5,
+          120
+        ],
+        "params": 3000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant111",
+        "shape": [
+          120,
+          1,
+          1,
+          40
+        ],
+        "params": 4800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant112",
+        "shape": [
+          40,
+          1,
+          1,
+          72
+        ],
+        "params": 2880,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant113",
+        "shape": [
+          72,
+          1,
+          1,
+          24
+        ],
+        "params": 1728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant114",
+        "shape": [
+          24,
+          1,
+          1,
+          72
+        ],
+        "params": 1728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant115",
+        "shape": [
+          1,
+          5,
+          5,
+          72
+        ],
+        "params": 1800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant116",
+        "shape": [
+          72,
+          1,
+          1,
+          24
+        ],
+        "params": 1728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant117",
+        "shape": [
+          24,
+          1,
+          1,
+          72
+        ],
+        "params": 1728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant118",
+        "shape": [
+          1,
+          3,
+          3,
+          72
+        ],
+        "params": 648,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant119",
+        "shape": [
+          72,
+          1,
+          1,
+          24
+        ],
+        "params": 1728,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant120",
+        "shape": [
+          24,
+          1,
+          1,
+          64
+        ],
+        "params": 1536,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant121",
+        "shape": [
+          1,
+          3,
+          3,
+          64
+        ],
+        "params": 576,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant122",
+        "shape": [
+          64,
+          1,
+          1,
+          16
+        ],
+        "params": 1024,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant123",
+        "shape": [
+          16,
+          1,
+          1,
+          16
+        ],
+        "params": 256,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant124",
+        "shape": [
+          1,
+          3,
+          3,
+          16
+        ],
+        "params": 144,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant125",
+        "shape": [
+          16,
+          3,
+          3,
+          3
+        ],
+        "params": 432,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant126",
+        "shape": [
+          1280,
+          960
+        ],
+        "params": 1228800,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant127",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant128",
+        "shape": [
+          3
+        ],
+        "params": 3,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant129",
+        "shape": [
+          2
+        ],
+        "params": 2,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant130",
+        "shape": [
+          1000
+        ],
+        "params": 1000,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant131",
+        "shape": [
+          1280
+        ],
+        "params": 1280,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "arith.constant132",
+        "shape": [
+          4,
+          2
+        ],
+        "params": 8,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "arith.constant133",
+        "shape": [
+          4,
+          2
+        ],
+        "params": 8,
+        "dtype": "<class 'numpy.int32'>"
+      },
+      {
+        "name": "model/tf.nn.relu/Relu;model/tf.math.add_1/Add;model/.net/features/1/block/0/0/Conv/depthwise",
+        "shape": [
+          1,
+          112,
+          112,
+          16
+        ],
+        "params": 200704,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.nn.relu_2/Relu;model/tf.math.add_5/Add;model/.net/features/2/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          56,
+          56,
+          64
+        ],
+        "params": 200704,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.nn.relu_4/Relu;model/tf.math.add_8/Add;model/.net/features/3/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          56,
+          56,
+          72
+        ],
+        "params": 225792,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.nn.relu_6/Relu;model/tf.math.add_12/Add;model/.net/features/4/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          72
+        ],
+        "params": 56448,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.nn.relu_10/Relu;model/tf.math.add_17/Add;model/.net/features/5/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          120
+        ],
+        "params": 94080,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.nn.relu_14/Relu;model/tf.math.add_23/Add;model/.net/features/6/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          28,
+          28,
+          120
+        ],
+        "params": 94080,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_29/Add;model/.net/features/7/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          240
+        ],
+        "params": 47040,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_32/Add;model/.net/features/8/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          200
+        ],
+        "params": 39200,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_36/Add;model/.net/features/9/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          184
+        ],
+        "params": 36064,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_40/Add;model/.net/features/10/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          184
+        ],
+        "params": 36064,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_44/Add;model/.net/features/11/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          480
+        ],
+        "params": 94080,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_49/Add;model/.net/features/12/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          14,
+          14,
+          672
+        ],
+        "params": 131712,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_55/Add;model/.net/features/13/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          672
+        ],
+        "params": 32928,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_60/Add;model/.net/features/14/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          960
+        ],
+        "params": 47040,
+        "dtype": "<class 'numpy.float32'>"
+      },
+      {
+        "name": "model/tf.math.add_66/Add;model/.net/features/15/block/1/0/Conv/depthwise",
+        "shape": [
+          1,
+          7,
+          7,
+          960
+        ],
+        "params": 47040,
+        "dtype": "<class 'numpy.float32'>"
+      }
+    ]
+  }
+]
