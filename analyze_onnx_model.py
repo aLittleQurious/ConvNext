@@ -31,16 +31,8 @@ def load_cipher_config(config_path=None):
         return config
     else:
         # Default configuration if file doesn't exist
-        return {
-            "ciphers": {
-                "grain128": 16250,
-                "chacha20_poly1305": 170
-            },
-            "analysis_settings": {
-                "top_activations_count": 10,
-                "default_bytes_per_element": 4
-            }
-        }
+        raise FileNotFoundError(f"Cipher configuration file not found: {config_path}")
+
 
 
 # Load cipher configuration
@@ -142,13 +134,8 @@ def get_tensor_size_bytes(shape, elem_type):
     
     # Get dtype and calculate bytes per element
     dtype = ONNX_DTYPE_MAP.get(elem_type)
-    if dtype is not None and dtype != str:
-        try:
-            bytes_per_element = np.dtype(dtype).itemsize
-        except TypeError:
-            bytes_per_element = CIPHER_CONFIG.get('analysis_settings', {}).get('default_bytes_per_element', 4)
-    else:
-        bytes_per_element = CIPHER_CONFIG.get('analysis_settings', {}).get('default_bytes_per_element', 4)
+
+    bytes_per_element = np.dtype(dtype).itemsize
     
     tensor_bytes = num_elements * bytes_per_element
     return int(tensor_bytes), int(num_elements)
@@ -168,7 +155,7 @@ def analyze_onnx_model(model_path, model_name=None):
     
     # Check for external data files (.data or .bin) in the same directory
     model_dir = os.path.dirname(model_path)
-    for ext in ['.data', '.onnx', '.bin']:
+    for ext in ['.data', '.bin']:
         external_data_path = os.path.join(model_dir, os.path.splitext(os.path.basename(model_path))[0] + ext)
         if os.path.exists(external_data_path):
             total_file_size += os.path.getsize(external_data_path)
@@ -195,17 +182,15 @@ def analyze_onnx_model(model_path, model_name=None):
     
     # Process initializers (weights/parameters)
     for initializer in graph.initializer:
+
         name = initializer.name
         shape = list(initializer.dims)
         elem_type = initializer.data_type
         dtype_name = get_onnx_dtype_name(elem_type)
         
         # Get raw data size directly from initializer
-        if initializer.raw_data:
-            tensor_bytes = len(initializer.raw_data)
-            num_elements = int(np.prod(shape)) if shape else 0
-        else:
-            tensor_bytes, num_elements = get_tensor_size_bytes(shape, elem_type)
+
+        tensor_bytes, num_elements = get_tensor_size_bytes(shape, elem_type)
         
         total_tensor_bytes += tensor_bytes
         total_parameters += num_elements
@@ -298,7 +283,7 @@ def analyze_onnx_model(model_path, model_name=None):
         print(f"{index:<6} {display_name:<50} {shape_str:<25} {dtype_name:<12} {tensor_bytes:>12,}")
         index += 1
     
-    # Process graph outputs
+    # Output Layer
     for output_tensor in graph.output:
         name = output_tensor.name
         tensor_type = output_tensor.type.tensor_type
