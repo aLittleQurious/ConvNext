@@ -1,6 +1,9 @@
 # Model files - ignore all .tflite files
 *.tflite
 
+# ONNX model files
+models/
+
 # Python
 __pycache__/
 *.py[cod]
