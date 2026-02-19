@@ -1,20 +1,15 @@
 {
   "ciphers": {
-    "grain128": {
-      "cycles_per_byte": 16250,
-      "power_per_byte_watts": 0.00093  
-    },
-    "chacha20_poly1305": {
-      "cycles_per_byte": 170,
-      "power_per_byte_watts": 0.00015
-    },
-    "ascon": {
-      "cycles_per_byte": 84,
-      "power_per_byte_watts": 0.00026
+
+    "ascon-20": {
+      "cycles_per_byte": 20,
+      "power_per_byte_watts": 0.01256
     }
+
+
   },
   "processor": {
-    "frequency_mhz": 200
+    "frequency_mhz": 500
   },
   "analysis_settings": {
     "top_activations_count": 10,

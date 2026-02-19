@@ -180,8 +180,21 @@ def analyze_onnx_model(model_path, model_name=None):
     total_parameters = 0
     index = 0
     
+    # Analyze data types in initializers
+    data_types = {}
+    for initializer in graph.initializer:
+        name = initializer.name
+        shape = list(initializer.dims)
+        elem_type = initializer.data_type
+        dtype_name = get_onnx_dtype_name(elem_type)
+    
+    print(f"data types (Type ID): {data_types}")
+    # ID 1 is FP32, ID 10 is FLOAT16, ID 2 is INT8, ID 3 is INT8 (Signed)
+    
     # Process initializers (weights/parameters)
     for initializer in graph.initializer:
+
+
 
         name = initializer.name
         shape = list(initializer.dims)
@@ -189,8 +202,13 @@ def analyze_onnx_model(model_path, model_name=None):
         dtype_name = get_onnx_dtype_name(elem_type)
         
         # Get raw data size directly from initializer
+                # Get raw data size directly from initializer
+        if initializer.raw_data:
+            tensor_bytes = len(initializer.raw_data)
+            num_elements = int(np.prod(shape)) if shape else 0
+        else:
+            tensor_bytes, num_elements = get_tensor_size_bytes(shape, elem_type)
 
-        tensor_bytes, num_elements = get_tensor_size_bytes(shape, elem_type)
         
         total_tensor_bytes += tensor_bytes
         total_parameters += num_elements

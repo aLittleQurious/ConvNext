@@ -1,0 +1,75 @@
+{
+  "ciphers": {
+    "custom-5ns": {
+      "cycles_per_byte": 47,
+      "power_per_byte_watts": 0.00818  
+    },
+
+
+    "grain128-30454": {
+      "cycles_per_byte": 30454,
+      "power_per_byte_watts": 0.00763  
+    },
+    
+    "grain128-30358": {
+      "cycles_per_byte": 30358,
+      "power_per_byte_watts": 0.00763  
+    },
+    "chacha20_poly1305": {
+      "cycles_per_byte": 170,
+      "power_per_byte_watts": 0.00756
+    },
+        "AES-GCM-22086": {
+      "cycles_per_byte": 22086,
+      "power_per_byte_watts": 0.00848
+    }
+    ,
+
+    "AES-GCM-22048": {
+      "cycles_per_byte": 22048,
+      "power_per_byte_watts": 0.00848
+    }
+    ,
+    "ascon-154": {
+      "cycles_per_byte": 154,
+      "power_per_byte_watts": 0.00845
+    },
+        "ascon-156": {
+      "cycles_per_byte": 156,
+      "power_per_byte_watts": 0.00845
+    },
+      "ascon-optimized-66": {
+        "cycles_per_byte": 66,
+        "power_per_byte_watts": 0.01243
+      },
+            "ascon-optimized-67": {
+        "cycles_per_byte": 67,
+        "power_per_byte_watts": 0.01243
+      },
+            "ascon-optimized-47": {
+        "cycles_per_byte": 47,
+        "power_per_byte_watts": 0.0124
+      },
+            "ascon-optimized-48": {
+        "cycles_per_byte": 48,
+        "power_per_byte_watts": 0.0124
+      }
+  },
+  "processor": {
+    "frequency_mhz": 200
+  },
+  "analysis_settings": {
+    "top_activations_count": 10,
+    "default_bytes_per_element": 4
+  },
+  "dtype_bytes": {
+    "float32": 4,
+    "float16": 2,
+    "int32": 4,
+    "int16": 2,
+    "int8": 1,
+    "uint8": 1,
+    "int64": 8,
+    "bool": 1
+  }
+}

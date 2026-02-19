@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(__file__)
 OUTPUTS_DIR = os.path.join(BASE_DIR, "outputs")
 PLOTS_DIR = os.path.join(BASE_DIR, "plots")
 
-CIPHER = 'ascon-20'
+CIPHER = 'ascon-154'
 MAX_LAYERS = 800
 
 # Custom start layer for specific models
@@ -27,7 +27,7 @@ COLORS = ['#0072B2', '#D55E00', '#009E73', '#CC79A7', '#E69F00', '#56B4E9']
 # Plot style
 plt.rcParams.update({
     'font.family': 'arial',
-    'font.size': 15,
+    'font.size': 11,
     'axes.labelsize': 12,
     'axes.titlesize': 13,
     'legend.fontsize': 9,
@@ -87,10 +87,10 @@ def main():
         else:
             avg_str = '0'
         
-        ax.set_xlabel('Layer Index', fontsize=19)
-        ax.set_ylabel(f'Cycles (Avg: {avg_str})', fontsize=19)
+        ax.set_xlabel('Layer Index')
+        ax.set_ylabel(f'Cycles (Avg: {avg_str})')
         ax.set_yscale('log')
-        ax.set_title(model_name, fontweight='bold', fontsize=20)
+        ax.set_title(model_name)
         if layer_indices:
             ax.set_xlim(layer_indices[0], layer_indices[-1])
     
@@ -98,9 +98,9 @@ def main():
     for idx in range(n_models, len(axes)):
         axes[idx].set_visible(False)
     
+    fig.suptitle('ASCON Encryption Cycles per Layer', fontsize=14, fontweight='bold')
     plt.tight_layout()
     plt.savefig(os.path.join(PLOTS_DIR, 'ascon_cycles_per_layer.png'), dpi=300, bbox_inches='tight')
-    plt.savefig(os.path.join(PLOTS_DIR, 'ascon_cycles_per_layer.pdf'), bbox_inches='tight')
     plt.show()
 
 
